@@ -6,6 +6,7 @@
 GET        /                    controllers.Maintenance.main
 GET        /dev                 controllers.Application.dev
 GET        /foo                 controllers.Application.dev
+GET        /silvia              controllers.Maintenance.silvia
 
 # Map static resources from the /public folder to the /assets URL path
 GET        /assets/*file        controllers.Assets.at(path="/public", file)

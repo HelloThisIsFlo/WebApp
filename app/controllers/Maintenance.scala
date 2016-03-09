@@ -9,4 +9,8 @@ object Maintenance {
     Ok(views.html.maintenance("shockn745@gmail.com"))
   }
 
+  def silvia = Action { implicit request =>
+    Ok(views.html.index("Hello Silvia :)"))
+  }
+
 }
